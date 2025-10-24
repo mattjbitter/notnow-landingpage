@@ -1,0 +1,16 @@
+{
+  "name": "notnow-website",
+  "version": "1.0.0",
+  "description": "Simple website for NotNow app with Apple-compliant privacy policy",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html --host=localhost",
+    "start": "live-server --port=3000 --open=/index.html --host=localhost"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["notnow", "website", "privacy", "app"],
+  "author": "NotNow",
+  "license": "MIT"
+}
